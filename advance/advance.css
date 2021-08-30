@@ -132,7 +132,7 @@ h1, .title span{
     flex-direction: column;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    -webkit-border-radius: 15px;
+    -webkit-border-radius: 0 0 15px 15px;
     box-shadow: 0 -10px 10px rbga(0,0,0,0.1);
     border: 1px solid rbga(255,255,255,1);
     transition: bottom 0.5s;
