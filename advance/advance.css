@@ -331,4 +331,26 @@ h1, .title span{
     {
         height: 85px;
     }
+    .container .card .img_content .img_contentBx h3{
+        font-size: 14px;
+        margin: 0px 0 10px;
+    }
+    /* Wave */
+    .wave{
+        height: 80px;
+    }
+    /* mouse scroll */
+    .icon-scroll{
+        width: 28px;
+        height: 45px;
+    }
+    @keyframes scroll {
+        0% {
+            opacity: 1
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(20px)
+        }
+    }
 }
