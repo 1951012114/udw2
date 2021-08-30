@@ -132,6 +132,7 @@ h1, .title span{
     flex-direction: column;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    -webkit-border-radius: 15px;
     box-shadow: 0 -10px 10px rbga(0,0,0,0.1);
     border: 1px solid rbga(255,255,255,1);
     transition: bottom 0.5s;
@@ -162,7 +163,6 @@ h1, .title span{
 .container .card:hover .img_content .img_contentBx h3{
     opacity: 1;
     transform: translateY(0px);
-    border-radius: 15px;
 }
 .container .card .img_content a{
     transform: translateY(40px);
@@ -173,7 +173,7 @@ h1, .title span{
 .container .card:hover .img_content a{
     transform: translateY(0px);
     opacity: 1;
-    
+    border-radius: 15px;
 }
 .btnangcao span{
     display: flex;
