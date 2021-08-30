@@ -116,6 +116,7 @@ ul li a:active{
         transform: translateY(-100%);
         opacity: 0;
         align-items: center;
+        overflow-x: hidden;
     }
     header.active ul{
         transform: translate(0);
