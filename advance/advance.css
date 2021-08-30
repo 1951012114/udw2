@@ -300,7 +300,7 @@ h1{
     }
 }
 /* Responsive */
-@media (max-width:1650px) {
+@media (max-width:1550px) {
     .container .card{
         width: 200px;
         height: 200px;
