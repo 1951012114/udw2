@@ -231,11 +231,11 @@ h1, .title span{
     top: 5%;
     z-index: 100;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .icon-scroll {
         position: relative
     }
-}
+} */
 .icon-scroll:before {
     content: '';
     width: 8px;
@@ -354,6 +354,16 @@ h1, .title span{
         }
     }
     .content{
-        top: 92.12vh;
+        top: 92.05vh;
+    }
+}
+@media (max-width: 1000px) {
+    .content{
+        top: 92vh;
+    }
+}
+@media (max-width: 700px) {
+    .wave{
+        background-size: 110% 100px;
     }
 }
