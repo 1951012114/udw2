@@ -172,6 +172,7 @@ h1, .title span{
 .container .card:hover .img_content a{
     transform: translateY(0px);
     opacity: 1;
+    border-radius: 15px;
 }
 .btnangcao span{
     display: flex;
