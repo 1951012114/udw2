@@ -28,11 +28,13 @@
 
 <body>
 	<h1>Chúc bạn vui vẻ!</h1>
-	<canvas id="frame" width= "170" height="170" usemap="caro" onClick="Choice()"></canvas>
-    <br>
-	<div id="anoun"></div>
-	<br>
-    <button type="button">Chơi lại</button>
+	<form>
+		<canvas id="frame" width= "170" height="170" usemap="caro" onClick="Choice()"></canvas>
+		<br>
+		<div id="anoun"></div>
+		<br>
+		<button type="button" onclick="Clear()">Chơi lại</button>
+	</form>
 </body>
 <script>
 		var canvas = document.getElementById("frame");
@@ -189,6 +191,8 @@
 		con.strokeStyle = "red";
 		con.stroke(); 
 	}
-	
+	let Clear = () => {
+		location.reload();
+	}
 </script>
 </html>
