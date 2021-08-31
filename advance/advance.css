@@ -366,10 +366,6 @@ h1, .title span{
     .content{
         top: 92vh;
     }
-    .btnangcao span{
-        color: black;
-        background-image: none;
-    }
 
 }
 @media (max-width: 700px) {
