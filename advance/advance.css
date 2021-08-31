@@ -368,6 +368,7 @@ h1, .title span{
     }
     .btnangcao span{
         color: black;
+        background-image: none;
     }
 
 }
